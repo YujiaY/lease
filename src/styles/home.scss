@@ -1,44 +1,44 @@
 .home-container {
   height: 100%;
   padding: 3rem 0 5rem;
-  .home__wrapper {
-    padding: 1.5rem 0;
-    width: 100%;
+  .home__background {
     height: 100%;
     background-image: url("../assets/hero.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .home__title {
-      text-align: center;
       color: white;
       font-size: 4rem;
       font-weight: 300;
     }
     .home__input {
-        margin:1.5rem auto;
-        padding: 0.5rem;
-        display: block;
-        width: 70%;       
-        border: none;
-        border-radius: 0.5rem;
-        font-size: 2rem;
+      margin: 1.5rem auto;
+      padding: 0.5rem;
+      display: block;
+      width: 70%;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 2rem;
     }
-    .home__input:focus{
-        outline: none;
+    .home__input:focus {
+      outline: none;
     }
     .home__submit {
-        margin:2rem auto;
-        padding: 0 2rem;
-        display: block;
-        background-color: darkred;
-        color:white;
-        font-size: 2.2rem;
-        font-weight: 200;
-        border: none;
-        border-radius: 0.3rem;
-        @include pointer;
+      margin: 2rem auto;
+      padding: 0 2rem;
+      display: block;
+      background-color: darkred;
+      color: white;
+      font-size: 2.2rem;
+      font-weight: 200;
+      border: none;
+      border-radius: 0.3rem;
+      @include pointer;
     }
   }
 }
