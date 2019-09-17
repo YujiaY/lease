@@ -25,12 +25,14 @@
     }
     .header__left {
       font-size: 3rem;
+      font-weight: 200;
       .header__logo {
         height: 3rem;
       }
     }
     .header__right {
       font-size: 2.2rem;
+      font-weight: 200;
       li a:hover {
         color: $red;
       }
