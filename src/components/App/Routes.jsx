@@ -5,6 +5,7 @@ import Register from '../Landing/Register';
 import Login from '../Landing/Login';
 import About from '../Landing/About';
 import Contact from '../Landing/Contact';
+import NotMatch from './NotMatch';
 
 export default () => (
   <Switch>
@@ -13,5 +14,6 @@ export default () => (
     <Route exact path="/login" component={Login} />
     <Route exact path="/about" component={About} />
     <Route exact path="/contact" component={Contact} />
+    <Route  component={NotMatch} />
   </Switch>
 );
