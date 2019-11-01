@@ -14,13 +14,13 @@ export default class Footer extends React.Component {
           </ul>
           <ul >
             <li >
-              <a href="https://twitter.com/?lang=en" target="#">
+              <a href="https://twitter.com/?lang=en" target="_blank">
                 <img className="footer__icon" src={twitter} alt="twitter" />
                 Twitter
           </a>
             </li>
             <li >
-              <a href="https://www.facebook.com" target="#">
+              <a href="https://www.facebook.com" target="_blank">
                 <img className="footer__icon" src={facebook} alt="facebook" />
                 Facebook
           </a>
